@@ -4,11 +4,23 @@
 }
 
 body {
-    text-align: center;
     font-size: 14px;
     font-family: 'Merriweather', serif;
+}
+
+.slogan {
+    text-align: center;
+    border: solid 1px #000;
+    margin: 25px 450px;
+    padding: 20px;
 }
 
 .banner_img {
     width: 100%;
 }
+
+.text {
+    text-align: center;
+    padding: 45px;
+}
+
