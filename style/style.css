@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    text-align: center;
+    font-size: 14px;
+    font-family: 'Merriweather', serif;
+}
+
+.banner_img {
+    width: 100%;
+}
