@@ -20,7 +20,46 @@ body {
 }
 
 .text {
-    text-align: center;
-    padding: 45px;
+    margin-top: 40px;
 }
 
+.text, .benefits {
+    text-align: center;
+    padding: 0px 50px;
+}
+
+.text_about, .benefits_title {
+    margin-bottom: 40px;
+}
+
+.text_pgph {
+    margin-bottom: 35px;
+}
+
+.benefits {
+    margin-top: 90px;
+}
+
+.benefits_session {
+    display: inline-flex;
+}
+
+.benefits_list {
+    margin-left: 230px;
+}
+
+.benefits_itens {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.benefits_img {
+    width: 70%;
+}
+
+.page_footer {
+    background-color:#282725;
+    width: 100%;
+    height: 100px;
+    margin-top: 40px;
+}
