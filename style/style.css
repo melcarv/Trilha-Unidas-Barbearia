@@ -58,8 +58,36 @@ body {
 }
 
 .page_footer {
-    background-color:#282725;
+    background-color:#3c362c;
     width: 100%;
     height: 100px;
     margin-top: 40px;
+}
+
+.top_pdt {
+    background:#3c362c;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.top_img {
+    width: 85%;
+}
+
+.top_list {
+    display: flex;
+    list-style: none;
+}
+
+.top_itens {
+    margin-left: 20px;
+}
+
+.top_link {
+    text-transform: uppercase;
+    color: #000;
+    font-size: 18px;
+    font-weight: 700;
+    text-decoration: none;
 }
