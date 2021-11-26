@@ -91,3 +91,32 @@ body {
     font-weight: 700;
     text-decoration: none;
 }
+
+.products_list {
+    display: flex;
+    justify-content: center;
+}
+
+.products_itens {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+    text-align: center;
+    border: solid 1px #000;
+    padding: 25px;
+    margin: 65px 20px;
+}
+
+.products_img {
+    width: 100%;
+}
+
+.products_text {
+    margin-bottom: 15px;
+}
+
+.products_price {
+    font-weight: 700;
+    font-size: 15px;
+}
