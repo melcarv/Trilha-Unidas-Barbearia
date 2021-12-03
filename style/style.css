@@ -140,7 +140,7 @@ body {
     width: 25%;
 }
 
-.form_entry {
+.form_entry, .form_text {
     margin: 5px 0 15px 0;
     padding: 5px;
     outline: none;
