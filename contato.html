@@ -4,13 +4,38 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/style/style.css">
+    <link rel="stylesheet" href="style/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300&display=swap" rel="stylesheet">
-    <title>Barbearia Alura</title>
+    <title>Contato - Barbearia Alura</title>
 </head>
 <body>
-    
+    <header class="top_pdt">
+        <div class="top_logo">
+            <img class="top_img" src="img/logo.png" alt="Logo">
+        </div>
+        <nav class="top_menu">
+            <ul class="top_list">
+                <li class="top_itens"><a class="top_link" href="index.html">Home</a></li>
+                <li class="top_itens"><a class="top_link" href="produtos.html">Produtos</a></li>
+                <li class="top_itens"><a class="top_link" href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="form_infos">
+        <form class="form_camp">
+            <label for="nome">Nome Completo</label>
+            <input class="form_entry" type="text" id="nome">
+            <label for="email">E-mail</label>
+            <input class="form_entry" type="text" id="email">
+            <label for="telefone">Telefone</label>
+            <input class="form_entry" type="text" id="telefone">
+            <input class="form_btn" type="submit" value="Enviar">
+        </form>
+    </main>
+    <footer class="copyrigth">
+        <span class="copyrigth_text">&copy; Copyright Barbebaria Alura - 2021</span>
+    </footer>
 </body>
 </html>
