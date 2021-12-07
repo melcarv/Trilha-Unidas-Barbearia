@@ -33,21 +33,21 @@
             <input class="form_entry" type="tel" id="telefone" placeholder="(xx) xxxxx-xxxx" required>
             <label for="mensagem">Mensagem</label>
             <textarea class="form_text" id="mensagem"></textarea>
-            <fieldset form_check>
-                <legend>Como prefere que o contato seja feito?</legend>
-                <label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email">E-mail</label>
-                <label for="radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-tolefone">Telefone</label>
-                <label for="radio-whatsapp"><input type="radio" name="contato" value="whatsapp" id="radio-whatsapp">Whatsapp</label> 
+            <fieldset class="form_radio">
+                <legend class="form_legend">Como prefere que o contato seja feito?</legend>
+                <label for="radio-email" class="form_item"><input class="form_dot" type="radio" name="contato" value="email" id="radio-email">E-mail</label>
+                <label for="radio-telefone" class="form_item"><input class="form_dot" type="radio" name="contato" value="telefone" id="radio-tolefone">Telefone</label>
+                <label for="radio-whatsapp" class="form_item"><input class="form_dot" type="radio" name="contato" value="whatsapp" id="radio-whatsapp">Whatsapp</label> 
             </fieldset>
-            <fieldset>
-                <legend form_select>Qual o melhor horário para atendimento?</legend>
-                <select name="" id="">
+            <fieldset class="form_select">
+                <legend class="form_legend">Qual o melhor horário para atendimento?</legend>
+                <select class="form_turns">
                     <option>Manhã</option>
                     <option>Tarde</option>
                     <option>Noite</option>
                 </select>
             </fieldset>
-            <label><input type="checkbox"> Deseja receber nossas atualizações por e-mail?</label>
+            <label class="form_check"><input type="checkbox"> Deseja receber nossas atualizações por e-mail?</label>
             <input class="form_btn" type="submit" value="Enviar">
         </form>
     </main>

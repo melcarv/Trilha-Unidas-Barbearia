@@ -144,6 +144,34 @@ body {
     margin: 5px 0 15px 0;
     padding: 5px;
     outline: none;
+    border: 1px solid #4F5951;
+}
+
+.form_radio, .form_check, .form_select {
+    border: none;
+    margin: 15px 0;
+}
+
+.form_radio {
+    display: flex;
+    flex-direction: column;
+}
+
+.form_item {
+    margin: 5px;
+}
+
+.form_dot {
+    margin-right: 5px;
+}
+
+.form_legend {
+    margin-bottom: 15px;
+}
+
+.form_turns {
+    border: #4F5951 solid 1px;
+    padding: 3px;
 }
 
 .form_btn {
