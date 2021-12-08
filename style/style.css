@@ -65,9 +65,17 @@ body {
     width: 70%;
 }
 
+.benefits_video {
+    margin-top: 40px;
+}
+
 .map_text {
     margin-bottom: 25px;
     font-style: italic;
+}
+
+.map {
+    margin-bottom: 60px;
 }
 
 .top_pdt {
